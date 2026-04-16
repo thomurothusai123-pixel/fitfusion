@@ -1,0 +1,1 @@
+{"name":"fitfusion-root","version":"1.0.0","scripts":{"start":"concurrently \"npm run backend\" \"npm run frontend\"","backend":"cd backend && npm run server","frontend":"cd frontend && npm start","install-all":"npm install && cd backend && npm install && cd ../frontend && npm install"},"devDependencies":{"concurrently":"^8.2.2"}}
