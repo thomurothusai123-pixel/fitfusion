@@ -44,5 +44,3 @@ Tech Stack
 ### Open thread
 > ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/d85cc588-a452-4e5c-9b07-f9c73e72ca89)
 
-### Chatbot ( if you may have any query ask to chatbot )
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/b57b6a17-2b74-4883-910e-b5286123e634)
