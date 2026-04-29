@@ -1,21 +1,78 @@
 # FitFusion - Fitness Dashboard
 
-FitFusion is a fitness dashboard web application that provides users with a comprehensive platform to track and manage their fitness goals. Whether you're an athlete, fitness enthusiast, or just getting started on your wellness journey, FitFusion offers a range of features to help you stay motivated and achieve your fitness targets. This project is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, delivering a seamless and engaging user experience.
-Features
+FitFusion is a full-stack fitness dashboard web application designed to help users track, manage, and improve their fitness journey. It provides a centralized platform for monitoring workouts, setting goals, and analyzing progress using a modern and responsive interface.
 
-    Track your fitness progress with a personalized dashboard.
-    Set and monitor fitness goals.
-    Log daily workouts and activities.
-    View detailed analytics and progress charts.
-    Connect with a community of like-minded fitness enthusiasts.
-    Access a library of workout routines and exercise demonstrations.
+Built with the MERN stack, the application focuses on performance, usability, and scalability.
 
-Tech Stack
+🚀 Features
+Personalized Dashboard
+Get an overview of your fitness progress in one place.
+Goal Setting & Tracking
+Define fitness goals and monitor progress over time.
+Workout Logging
+Record daily workouts and activities with ease.
+Analytics & Insights
+Visualize progress through charts and performance metrics.
+Community Interaction
+Connect with other users for motivation and engagement.
+Workout Library
+Access predefined workout routines and exercise guides.
+🛠️ Tech Stack
 
-   - Frontend: React.js
-   - Backend: Node.js, Express.js
-   - Database: MongoDB
+Frontend
 
+React.js
+
+Backend
+
+Node.js
+Express.js
+
+Database
+
+MongoDB
+📁 Project Structure
+FitFusion/
+│── frontend/        # React frontend
+│── backend/         # Node + Express backend
+│── models/          # MongoDB schemas
+│── routes/          # API routes
+│── controllers/     # Business logic
+│── config/          # Database config
+│── .env             # Environment variables
+⚙️ Installation & Setup
+1. Clone the repository
+git clone https://github.com/your-username/fitfusion.git
+cd fitfusion
+2. Install dependencies
+
+Frontend
+
+cd frontend
+npm install
+
+Backend
+
+cd backend
+npm install
+3. Setup Environment Variables
+
+Create a .env file in the backend folder and add:
+
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+JWT_SECRET=your_secret_key
+4. Run the Application
+
+Start Backend
+
+cd backend
+npm run dev
+
+Start Frontend
+
+cd frontend
+npm start
 
 ### Signup page ( make sure you login or signup with only google )
 > ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/181babcc-5fd9-4b57-8e9c-63837d8642ca)
